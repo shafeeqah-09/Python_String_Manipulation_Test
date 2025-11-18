@@ -91,3 +91,6 @@ class TestStringFunctions(unittest.TestCase):
         self.assertEqual(format_date("10 March 2010"), "10/03/2010")
         self.assertEqual(format_date("20 AUGUST 1995"), "20/08/1995")
         self.assertEqual(format_date("15 aprIl 2021"), "15/04/2021")
+
+if __name__ == "__main__":
+    unittest.main()
